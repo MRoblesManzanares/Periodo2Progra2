@@ -7,14 +7,14 @@ int main()
 {
     char nombre[30];
     int horas,pagaxhora,pagobruto,ihss,pagototal,turno,bono;
-    cout<<"Ingresar nombre del empleado";
+    cout<<"Ingresar nombre del empleado\n";
     cin.getline(nombre,30);
 
-    cout<<"Horas trabajadas";
+    cout<<"Horas trabajadas\n";
     cin>>horas;
 
 
-    cout<<"turno de trabajo";
+    cout<<"turno de trabajo\n";
     cin>>turno;
     if (turno==1)
         {
@@ -59,9 +59,9 @@ int main()
     }
     pagototal=pagobruto-ihss;
     cout<<"\npago porr hora\n"<<pagaxhora;
-    cout<<"\nbono ganado es"<<bono;
-    cout<<"\npago antes de deduccion"<<pagobruto;
-    cout<<"\nseguro social"<<ihss;
-    cout<<"\nTotal a pagar"<<pagototal;
+    cout<<"\nbono ganado es\n"<<bono;
+    cout<<"\npago antes de deduccion\n"<<pagobruto;
+    cout<<"\nseguro social\n"<<ihss;
+    cout<<"\nTotal a pagar\n"<<pagototal;
     return 0;
 }
