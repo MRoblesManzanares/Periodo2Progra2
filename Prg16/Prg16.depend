@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1398874725 source:c:\users\marvin\documents\github\periodo2progra2\prg16\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+
